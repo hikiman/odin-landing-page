@@ -19,6 +19,10 @@ button {
   font-family: Roboto, sans-serif;
 }
 
+img {
+  display: inline-block;
+  object-fit: contain;
+}
 
 .header {
   display: flex;
