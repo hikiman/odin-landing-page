@@ -214,3 +214,17 @@ img {
     color: #f9faf8;
   }
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #1f2937;
+
+  .copyright {
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+}
