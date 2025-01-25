@@ -53,3 +53,39 @@ img {
     color: #e5e7eb;
   }
 }
+
+.hero {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  padding: 80px 20px;
+  background-color: #1f2937;
+
+  .description-container {
+    max-width: 33%;
+  }
+
+  .hero__title {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+  }
+
+  .hero__text {
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+
+  .hero__button {
+    display: inline-block;
+    padding: 6px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+  }
+}
